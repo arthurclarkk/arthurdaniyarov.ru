@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel=icon href=img/favicon.png>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        $('.scrollup').fadeIn();
+                    } else {
+                        $('.scrollup').fadeOut();
+                    }
+                });
+
+                $('.scrollup').click(function() {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 600);
+                    return false;
+                });
+
+            });
+        </script>
+        <title>Arthur Daniyarov</title>
+    </head>
+    <body>
+<header>
+    <div class="container">
+        <div class="heading">
+            <div class="logoo">
+                <a href="index.html">
+                    <img class="logo " src="img/logo.png" alt="ad">
+                    <br><img class="logos" src="img/logoname.png" alt="">
+                </a>
+            </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="films.html">Films</a>
+                </li>
+                <li>
+                    <a href="paintings.html">Paintings</a>
+                </li>
+                <li>
+                    <a href="works.html">Works</a>
+                </li>
+                <li>
+                    <a href="travel.html">Travel</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="title">
+            <h1>NewYork</h1>
+        </div>
+        <div class="travels">
+            <div class="line">
+                <hr>
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/1.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/2.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/3.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/4.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/5.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/6.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/7.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/8.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/9.jpg" alt="" width="1080" height="720">
+            </div>
+            <div class="post">
+                    <img src="img/Travel/NewYork/10.jpg" alt="" width="1080" height="720">
+            </div>
+        </div>
+    </div>
+    <a href="#" class="scrollup">Наверх</a>
+</section>
+<footer>
+    <div class="container">
+        <div class="copyright">
+            (c) <a href="index.html">Arthur Daniyarov</a> 2017
+        </div>
+    </div>
+</footer>
+    </body>
+</html>

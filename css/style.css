@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #c9cacd;
+}
+
+header {
+    background: #c9cacd;
+    height: 100px;
+}
+
+section {
+    background: #c9cacd;
+}
+
+footer {
+    background: #c9cacd;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logoo {
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+
+.logoo a {
+    text-decoration: none;
+    display: block;
+}
+
+nav {
+    float: right;
+    margin-top: 70px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 40px;
+}
+
+.menu a {
+    color: #323336;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.blog {
+    padding-top: 291px;
+}
+
+.post {
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.post .datatext {
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    top: calc(50% - 60px);
+    left: calc(50% - 60px);
+}
+
+.datatext {
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+.datatext a {
+    text-decoration: none;
+    color: white;
+}
+
+.quotes {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 750px;
+    width: 280px;
+    height: 30px;
+}
+
+.quotes p {
+    text-align: right;
+    display: block;
+}
+
+.copyright {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100px;
+    padding-top: 65px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #323336;
+}
+
+
+/*------------------------PAINTINGS-------------------*/
+
+.title {
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.title h1 {
+    text-align: center;
+    color: #323336;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.paints {
+    padding-top: 50px;
+}
+
+.paints__item {
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+/*------------------------CONTACT-----------------*/
+
+.email {
+    text-align: center;
+
+}
+
+.email a {
+    color: #323336;
+    text-decoration: none;
+}
+
+.contacts {
+    padding-top: 50px;
+}
+.contacts__item {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.social {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.coprr {
+    padding-top: 20px;
+}
+
+/*-------------------------VIDEOS--------------------*/
+
+.videos {
+    padding-top: 50px;
+}
+
+.videos__item {
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+/*------------------------TRAVEL---------------------*/
+
+.travels {
+    padding-top: 50px;
+}
+
+
+/*-----------------BUTTONUP-------------------------*/
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../img/icon_top.png') no-repeat;
+}
+
+/*-----------------------WORKS---------------------*/
+
+.works {
+    padding-top: 50px;
+}
+.works__item {
+    position: relative;
+    padding-top: 60px;
+}
+.works__item p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+/*----------------------ABOUT--------------------*/
+
+.telling {
+    padding-top: 50px;
+}
+
+.about {
+    position: relative;
+    padding-top: 60px;
+}
+
+.about p {
+    position: absolute;
+    left: 61%;
+    top: 35%;
+}
+
+/*-------------------JENYA LUBICH---------------*/
+
+.texto {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
